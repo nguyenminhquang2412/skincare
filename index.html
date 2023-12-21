@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="/css/trangchu.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+    </head>
+    
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <nav class="navbar">
+                    <div class="container-navbar">
+                        <div class="nav">
+                            <ul class="navb">
+                                <i class="fa fa-home"></i>
+                                <li class="navbar-1">
+                                    <a class="nav-link" href="#">
+                                        Sản Phẩm
+                                    </a>
+                                    <ul class="drop-menu">
+                                        <li class="item"><a href="#">Sản Phẩm 1</a></li>
+                                        <li class="item"><a href="#">Sản Phẩm 2</a></li>
+                                        <li class="item"><a href="#">Sản Phẩm 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-1">
+                                    <a href="#">Giới Thiệu</a>
+                                </li>
+                                <li class="navbar-1">
+                                    <a class="nav-link" href="#">
+                                        Khuyến mãi
+                                    </a>
+                                    <ul class="drop-menu">
+                                        <li class="item"><a href="#">Khuyến mãi 1</a></li>
+                                        <li class="item"><a href="#">Khuyến mãi 2</a></li>
+                                        <li class="item"><a href="#">Khuyến mãi 3</a></li>
+                                    </ul>
+                                </li> 
+                                <li class="navbar-1">
+                                    <img src="/images/logo/logo.png" alt="logo">
+                                </li>
+                                <li class="navbar-1">
+                                    <a class="nav-link" href="#">
+                                        Tin Tức
+                                    </a>
+                                    <ul class="drop-menu">
+                                        <li class="item"><a href="#">Tin Tức 1</a></li>
+                                        <li class="item"><a href="#">Tin Tức 2</a></li>
+                                        <li class="item"><a href="#">Tin Tức 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-1">
+                                    <a class="nav-link" href="#">
+                                        Đại Lí
+                                    </a>
+                                    <ul class="drop-menu">
+                                        <li class="item"><a href="#">Đại Lí 1</a></li>
+                                        <li class="item"><a href="#">Đại Lí 2</a></li>
+                                        <li class="item"><a href="#">Đại Lí 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="navbar-1">
+                                    <i class="fa fa-shopping-basket"></i>
+                                </li>
+                                <li>
+                                <img class = "language" src="/images/language/vi.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <script>
+                            // Lắng nghe sự kiện di chuột vào phần tử chứa menu
+                            document.querySelector('.navbar-1').addEventListener('mouseenter', function() {
+                            // Hiển thị menu thả xuống khi di chuột vào
+                                this.querySelector('.drop-menu').style.display = 'block';
+                                    });
+            
+                            // Lắng nghe sự kiện di chuột ra khỏi phần tử chứa menu
+                            document.querySelector('.navbar-1').addEventListener('mouseleave', function() {
+                                // Ẩn menu thả xuống khi di chuột ra khỏi
+                                this.querySelector('.drop-menu').style.display = 'none';
+                                    });
+                        </script>
+                    </div>
+                </nav>
+                <script src="nav.js"></script>
+                <div class="writting" >
+                    <div class="caption">
+                        <h2>Thành Phần Tự Nhiên</h2>
+                        <img src="/lá cây/leaf-2.png" alt="">
+                    </div>
+                    <div>
+                        <h1>Tự Tin Tỏa Sáng</h1>
+                    </div>
+                    <button class="hb">Đặt Hàng Ngay</button>
+                </div>  
+            </div>
+            
+            
+            <div class="list-icon">
+                <ul>
+                    <li>
+                        <img src="/utilities/1.svg" alt="ảnh 1">
+                        <h3>Thành Phần Tự Nhiên</h3>
+                        <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+                    </li>
+                    <li>
+                        <img src="/utilities/2.svg" alt="ảnh 2">
+                        <h3>Độ PH Trung Tính</h3>
+                        <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+                    </li>
+                    <li>
+                        <img src="/utilities/3.svg" alt="ảnh 2">
+                        <h3>Bảo Vệ Môi Trường</h3>
+                        <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+                    </li>
+                    <li>
+                        <img src="/utilities/4.svg" alt="ảnh 2">
+                        <h3>Không Chứa Paraben</h3>
+                        <p>Sản phẩm dưỡng da tinh chất từ yến đầu tiên ở Việt Nam</p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <table class="page3" cellpadding = "5" cellspacing = "5">
+                <tr>
+                    <th class="trai"> <img src="/images/background/about-1.png" alt=""> </th>
+                <th class="phai"> 
+                        <h2 id="spm">Sản phẩm mới</h2> 
+                        <br>
+                        <h2 id="serum">Serum Dưỡng Da <br>Tinh Chất Yến Sào <br> Đầu Tiên Ở Việt Nam</h2>
+                        <br>
+                        <p id="p1">Với thành phần độc đáo của yến sào, serum không chỉ dưỡng ẩm sau
+                            mà còn <br> kích thích sản sinh collagen, giảm nếp nhăn
+                        </p>
+                        <br>
+                        <p id="p2"><br>Trải nghiệm sự trẻ trung và khám phá làn da mới với sự hỗ trợ
+                            toàn diện từ serum <br> chăm sóc da hằng ngày
+                        </p>
+                        <br>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                        <button id="tvgh-page3">Thêm Vào Giỏ Hàng</button> 
+                    </th>
+                </tr>
+            </table>
+
+            <div class="slider-product">
+                <div class="headersanpham">
+                    <div class="tren">
+                        <h3>Bộ Sưu Tập</h3>
+                        <img src="/lá cây/leaf.svg" alt="">
+                    </div>
+                    <div class="duoi">
+                        <h5>VẺ ĐẸP TINH TẾ</h5>
+                    </div>
+                </div>
+                <div class="image-slider">
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/1.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">Sữa rửa mặt HSkin care</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/2.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">Kem Tẩy Tế Bào Chết</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/3.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">Kem Dưỡng Mắt</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/4.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">Kem Chống Lão Hóa</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/5.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/6.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/7.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/8.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/9.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/10.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/11.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    <div class="image-item">
+                        <div class="image">
+                            <img src="/images/product/12.png" alt="ảnh 1">
+                        </div>
+                        <h3 class="image-tittle">caption</h3>
+                        <button id="dhn-page3">Đặt Hàng Ngay</button>
+                    </div>
+                    
+                </div>
+                <script
+                    type="text/javascript"
+                    src="https://code.jquery.com/jquery-1.11.0.min.js"
+                    ></script>
+                <script
+                    type="text/javascript"
+                    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+                ></script>
+                <script
+                    type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+                ></script>
+                <script src="slidersp.js"></script>
+            </div>
+
+
+            <div class="headersanpham">
+                <div class="tren">
+                    <h3>Sản Phẩm Được Yêu Thích</h3>
+                    <img src="/lá cây/leaf.svg" alt="">
+                </div>
+                <div class="duoi">
+                    <h5>ĐƯỢC ĐÁNH GIÁ CAO NHẤT</h5>
+                </div>
+            </div>
+
+                
+            <div class="saphamduocyeuthich">
+                <table>
+                    <th>
+                        <tr>
+                            <div class="leftt"> 
+                                <div class="spyt-item">
+                                    <div class="sp-image">
+                                        <img src="/images/product/1.png" alt="ảnh 1">
+                                    </div>
+                                    <h3>caption</h3>
+                                </div>
+                                <div class="spyt-item">
+                                    <div class="sp-image">
+                                        <img src="/images/product/2.png" alt="ảnh 1">
+                                    </div>
+                                    <h3 >caption</h3>
+                                </div>
+                                <div class="spyt-item">
+                                    <div class="sp-image">
+                                        <img src="/images/product/3.png" alt="ảnh 1">
+                                    </div>
+                                    <h3>caption</h3>
+                                </div>
+                                <div class="spyt-item">
+                                    <div class="sp-image">
+                                        <img src="/images/product/4.png" alt="ảnh 1">
+                                    </div>
+                                    <h3>caption</h3>
+                                </div>
+                                <div class="spyt-item">
+                                    <div class="sp-image">
+                                        <img src="/images/product/5.png" alt="ảnh 1">
+                                    </div>
+                                    <h3>caption</h3>
+                                </div>
+                                <script
+                                    type="text/javascript"
+                                    src="https://code.jquery.com/jquery-1.11.0.min.js"
+                                ></script>
+                                <script
+                                    type="text/javascript"
+                                    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+                                ></script>
+                                <script
+                                    type="text/javascript"
+                                    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+                                ></script>
+                                <script src="spyt.js"> </script> 
+                                
+                            </div>
+                        </tr>
+                    </th>
+                    <th>
+                        <tr>
+                            <div class="rightt"> 
+                                <h2 id="spcb">Bộ Sản Phẩm Cơ Bản </h2> 
+                                <br>
+                                <p id="p3">Với thành phần độc đáo của yến sào, serum không chỉ dưỡng ẩm sau mà còn <br> kích thích sản sinh collagen, giảm nếp nhăn</p>
+                                <br>
+                                <p id="p4"><br>Trải nghiệm sự trẻ trung và khám phá làn da mới với sự hỗ trợ toàn diện từ serum <br> chăm sóc da hằng ngày
+                                </p>
+                                <br>
+                                <button id="dhn-page3">Đặt Hàng Ngay</button>
+                                <button id="tvgh-page3">Thêm Vào Giỏ Hàng</button> 
+                            </div>
+                        </tr>
+                    </th>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
